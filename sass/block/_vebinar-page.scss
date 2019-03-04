@@ -61,9 +61,27 @@ html,body{
 				.chat-user{
 					margin-top: 20px;
 					height: 400px;
+					padding: 8px;
 					border-bottom-right-radius: 3px;
 					border-top-right-radius: 3px;
 					background-color: #f3f2f2;
+						.like{
+							width: 35px;
+							height: 20px;
+							display: inline-block;
+							vertical-align: top;
+							border-radius: 3px;
+							text-align: right;
+							padding: 0 5px 0 0;
+							font-size: 16px;
+							color: #fff;
+							background: url(http://cpr.uz/files/learn.norma.uz/images/like_1.png) no-repeat center left #636363;
+							&:active,
+							&:visited{
+								color: #1c1c1c;
+								background: url(http://cpr.uz/files/learn.norma.uz/images/like_1.png) no-repeat center left green;
+							}
+						}
 				}
 		}
 }
