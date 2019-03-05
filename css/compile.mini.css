@@ -5,16 +5,17 @@ a, p, ul, li, h1, h2, h3, h4, h5 { margin: 0; padding: 0; }
 html, body { font-family: PTSerifRegular; }
 
 .vebinar-page { padding: 35px 0 15px 0; height: auto; background-color: #3c3c3c; }
+.vebinar-page .my_custom { width: 1280px; padding-left: 10px; padding-right: 10px; }
 .vebinar-page .headlines { margin-bottom: 20px; display: -moz-flex; display: -ms-flex; display: -o-flex; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; }
-.vebinar-page .headlines .right { width: 70%; }
-.vebinar-page .headlines .left { width: 30%; }
+.vebinar-page .headlines .right { width: 75%; }
+.vebinar-page .headlines .left { width: 25%; }
 .vebinar-page .headline { display: inline-block; }
-.vebinar-page .headline h1 { font-size: 20px; font-weight: 550; font-family: LatoBlack; display: inline-block; text-transform: uppercase; color: #d0cece; }
+.vebinar-page .headline h1 { font-size: 18px; font-weight: 550; font-family: LatoBlack; display: inline-block; text-transform: uppercase; color: #d0cece; }
 .vebinar-page .vebinar-tools { border-top-left-radius: 6px; border-top-right-radius: 6px; padding: 16px 15px 26px; display: -moz-flex; display: -ms-flex; display: -o-flex; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; position: relative; background-color: #1c1c1c; -webkit-box-shadow: 0 0 5px 2px #212020; box-shadow: 0 0 5px 2px #212020; }
 .vebinar-page .videochat-block { width: 100%; display: -moz-flex; display: -ms-flex; display: -o-flex; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; height: 400px; }
-.vebinar-page .videochat-block .vebinar-window { display: block; width: 70%; }
+.vebinar-page .videochat-block .vebinar-window { display: block; width: 75%; }
 .vebinar-page .videochat-block .vebinar-window iframe { width: 100%; height: 100%; border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
-.vebinar-page .videochat-block .chat-user { width: 30%; padding: 15px 8px 5px 8px; height: 100%; display: -moz-flex; display: -ms-flex; display: -o-flex; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; border-bottom-right-radius: 3px; border-top-right-radius: 3px; position: relative; background-color: #f3f2f2; }
+.vebinar-page .videochat-block .chat-user { width: 25%; padding: 15px 8px 5px 8px; height: 100%; display: -moz-flex; display: -ms-flex; display: -o-flex; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; border-bottom-right-radius: 3px; border-top-right-radius: 3px; position: relative; background-color: #f3f2f2; }
 .vebinar-page .videochat-block .chat-user .comments { overflow: auto; height: 100%; }
 .vebinar-page .videochat-block .chat-user p.comment-box { text-align: justify; margin: 0 0 15px; }
 .vebinar-page .videochat-block .chat-user p.comment-box .like-user { vertical-align: super; }
@@ -32,4 +33,3 @@ html, body { font-family: PTSerifRegular; }
 .vebinar-page .tools-footer .control-button button { border: none; border-radius: 50%; padding: 4px; width: 45px; height: 45px; outline: none; font-size: 18px; background-color: #f53f45; color: #d6c9ce; margin: 0 15px 0 15px; -webkit-box-shadow: 0 0 3px 0 #fda6a9; box-shadow: 0 0 3px 0 #fda6a9; -webkit-transition: -webkit-box-shadow 0.3s ease-out; transition: -webkit-box-shadow 0.3s ease-out; transition: box-shadow 0.3s ease-out; transition: box-shadow 0.3s ease-out, -webkit-box-shadow 0.3s ease-out; }
 .vebinar-page .tools-footer .control-button button:hover, .vebinar-page .tools-footer .control-button button:focus { -webkit-transition: -webkit-box-shadow 0.4s ease-in; transition: -webkit-box-shadow 0.4s ease-in; transition: box-shadow 0.4s ease-in; transition: box-shadow 0.4s ease-in, -webkit-box-shadow 0.4s ease-in; -webkit-box-shadow: 0 0 6px 0 #dab9b9; box-shadow: 0 0 6px 0 #dab9b9; }
 .vebinar-page .tools-footer .stream-url input { outline: none; width: 265px; height: 42px; padding: 5px; font-size: 16px; border-radius: 30px; border: none; color: #1c1c1c; }
-.vebinar-page .fuckthatshit { display: block; }
