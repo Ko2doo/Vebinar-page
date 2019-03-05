@@ -11,6 +11,15 @@ $(document).ready(function(){
 		$('.chat-footer.active').slideUp().removeClass('active').addClass('close');
 	});
 
+	//Скрытые админские инструменты
+		$('.open-panel').click(function(slidePanel){
+			slidePanel.preventDefault();
+				$('.open-panel').toggleClass('active');
+				$('#toolPanel').slideToggle('slow').toggleClass('open').css({'display' : 'flex'});
+				$(this).parents('.open-panel').removeClass('active');
+				$(this).parents('#toolPanel').removeClass('open');
+		});
+
 
 
 });

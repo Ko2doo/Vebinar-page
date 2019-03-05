@@ -198,6 +198,30 @@ html,body{
 					}
 			}
 		}
+		#toolPanel{
+			display: none;
+
+		}
+		.hideShow-tool{
+			margin-top: 8px;
+			text-align: center;
+				a.open-panel{
+					font-size: 22px;
+					text-decoration: none;
+					color: #d0cece;
+					&.active{
+						&:before{
+							content: 'Скрыть инструменты';
+						}
+						&:after{
+							content: ' ';
+						}
+					}
+					&:after{
+						content: 'Показать инструменты';
+					}
+				}
+		}
 		.tools-footer{
 			width: 100%;
 			height: auto;
@@ -205,11 +229,6 @@ html,body{
 			border-bottom-left-radius: 6px;
 			border-bottom-right-radius: 6px;
 			padding: 25px 0 30px;
-			display: -webkit-flex;
-			display: -moz-flex;
-			display: -ms-flex;
-			display: -o-flex;
-			display: flex;
 			align-items: center;
 			flex-direction: column;
 			background-color: #1c1c1c;
