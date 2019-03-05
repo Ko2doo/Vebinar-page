@@ -15,6 +15,17 @@ html,body{
 	padding: 35px 0 15px 0;
 	height: auto;
 	background-color: #3c3c3c;
+		.headlines{
+			margin-bottom: 20px;
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+		}
 		.headline{
 			display: inline-block;
 				h1{
@@ -36,52 +47,54 @@ html,body{
 			display: -ms-flex;
 			display: -o-flex;
 			display: flex;
-			justify-content: space-between;
+			flex-direction: column;
 			background-color: #1c1c1c;
 			box-shadow: 0 0 5px 2px rgb(33, 32, 32);;
 		}
-		.video-block{
-			display: inline-block;
-			width: 70%;
-				.vebinar-window{
-					display: block;
-					height: 400px;
-					margin-top: 20px;
-						iframe{
-							width: 100%;
-							border-top-left-radius: 3px;
-							border-bottom-left-radius: 3px;
+
+		.videochat-block{
+			width: 100%;
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: -o-flex;
+			display: flex;
+			justify-content: space-between;
+			height: 400px;
+			.vebinar-window{
+				display: block;
+				width: 70%;
+					iframe{
+						width: 100%;
+						height: 100%;
+						border-top-left-radius: 3px;
+						border-bottom-left-radius: 3px;
+					}
+			}
+			.chat-user{
+				width: 30%;
+				padding: 8px;
+				height: 100%;
+				border-bottom-right-radius: 3px;
+				border-top-right-radius: 3px;
+				background-color: #f3f2f2;
+					.like{
+						width: 35px;
+						height: 20px;
+						display: inline-block;
+						vertical-align: top;
+						border-radius: 3px;
+						text-align: right;
+						padding: 0 5px 0 0;
+						font-size: 16px;
+						color: #fff;
+						background: url(http://cpr.uz/files/learn.norma.uz/images/like_1.png) no-repeat center left #636363;
+						&:active,
+						&:visited{
+							color: #1c1c1c;
+							background: url(http://cpr.uz/files/learn.norma.uz/images/like_1.png) no-repeat center left green;
 						}
-				}
-		}
-		.chat-block{
-			display: inline-block;
-			width: 30%;
-			
-				.chat-user{
-					margin-top: 20px;
-					height: 400px;
-					padding: 8px;
-					border-bottom-right-radius: 3px;
-					border-top-right-radius: 3px;
-					background-color: #f3f2f2;
-						.like{
-							width: 35px;
-							height: 20px;
-							display: inline-block;
-							vertical-align: top;
-							border-radius: 3px;
-							text-align: right;
-							padding: 0 5px 0 0;
-							font-size: 16px;
-							color: #fff;
-							background: url(http://cpr.uz/files/learn.norma.uz/images/like_1.png) no-repeat center left #636363;
-							&:active,
-							&:visited{
-								color: #1c1c1c;
-								background: url(http://cpr.uz/files/learn.norma.uz/images/like_1.png) no-repeat center left green;
-							}
-						}
-				}
+					}
+			}
 		}
 }
