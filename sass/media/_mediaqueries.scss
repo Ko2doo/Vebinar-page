@@ -1,9 +1,20 @@
 // Медиа запросы
 
-.header{
+.vebinar-page{
 	//начало
-	@media (max-width: 1024px){
+	@media (min-width: 1440px){
+		.my_custom{
+			width: 1370px;
+		}
+		.videochat-block{
 
+			.chat-user{
+
+				button.hide-btn{
+					top: 7px;
+				}
+			}
+		}
 	}
 
 }
