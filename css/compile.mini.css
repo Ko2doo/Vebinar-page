@@ -15,14 +15,17 @@ html, body { font-family: PTSerifRegular; }
 .vebinar-page .videochat-block .vebinar-window { display: block; width: 70%; }
 .vebinar-page .videochat-block .vebinar-window iframe { width: 100%; height: 100%; border-top-left-radius: 3px; border-bottom-left-radius: 3px; }
 .vebinar-page .videochat-block .chat-user { width: 30%; padding: 15px 8px 5px 8px; height: 100%; display: -moz-flex; display: -ms-flex; display: -o-flex; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; border-bottom-right-radius: 3px; border-top-right-radius: 3px; position: relative; background-color: #f3f2f2; }
-.vebinar-page .videochat-block .chat-user .comments { overflow: auto; height: 70%; }
+.vebinar-page .videochat-block .chat-user .comments { overflow: auto; height: 100%; }
 .vebinar-page .videochat-block .chat-user p.comment-box { text-align: justify; margin: 0 0 15px; }
 .vebinar-page .videochat-block .chat-user p.comment-box .like-user { vertical-align: super; }
 .vebinar-page .videochat-block .chat-user p.comment-box .like-user .like { width: 35px; height: 20px; display: inline-block; border-radius: 3px; text-align: right; padding: 0 5px 0 0; font-size: 16px; color: #fff; background: url(http://cpr.uz/files/learn.norma.uz/images/like_1.png) no-repeat center left #636363; }
 .vebinar-page .videochat-block .chat-user p.comment-box .like-user .like:active, .vebinar-page .videochat-block .chat-user p.comment-box .like-user .like:visited { color: #1c1c1c; background: url(http://cpr.uz/files/learn.norma.uz/images/like_1.png) no-repeat center left #52bb2f; }
 .vebinar-page .videochat-block .chat-user p.comment-box .like-user .username { font-size: 16px; color: #4c82c5; }
-.vebinar-page .videochat-block .chat-user .chat-footer { position: absolute; left: 0; right: 0; bottom: 0; }
-.vebinar-page .videochat-block .chat-user .chat-footer .textarea { width: 100%; height: 85px; resize: none; border: none; outline: none; padding: 4px 8px 0 8px; position: relative; top: 6px; background-color: rgba(224, 224, 224, 0.8); }
+.vebinar-page .videochat-block .chat-user button.show-btn { border: none; outline: none; position: absolute; left: 0; right: 0; bottom: 0; z-index: 44; width: 100%; height: auto; color: #1c1c1c; background: #d0d0d0; font-size: 17px; -webkit-transition: bottom 0.3s ease-in; transition: bottom 0.3s ease-in; }
+.vebinar-page .videochat-block .chat-user button.show-btn.active { display: none; }
+.vebinar-page .videochat-block .chat-user button.hide-btn { border: none; outline: none; position: relative; top: 6px; left: 0; right: 0; display: block; z-index: 44; width: 100%; height: auto; color: #1c1c1c; background: #d0d0d0; font-size: 17px; -webkit-transition: bottom 0.3s ease-in; transition: bottom 0.3s ease-in; }
+.vebinar-page .videochat-block .chat-user .chat-footer { display: none; position: absolute; left: 0; right: 0; bottom: 0; }
+.vebinar-page .videochat-block .chat-user .chat-footer .textarea { width: 100%; height: 110px; resize: none; border: none; outline: none; padding: 4px 8px 0 8px; position: relative; top: 6px; background-color: #e0e0e0; }
 .vebinar-page .videochat-block .chat-user .chat-footer .submit { width: 100%; height: 30px; cursor: pointer; font-size: 16px; text-align: center; border: none; display: block; outline: none; color: #fff; background: #ff8773; }
 .vebinar-page .tools-footer { width: 100%; height: auto; border-top: 1px solid #3e3e3e; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; padding: 25px 0 30px; display: -moz-flex; display: -ms-flex; display: -o-flex; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; background-color: #1c1c1c; -webkit-box-shadow: 0 0 5px 2px #212020; box-shadow: 0 0 5px 2px #212020; }
 .vebinar-page .tools-footer .control-button { margin-bottom: 30px; }
