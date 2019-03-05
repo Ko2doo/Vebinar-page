@@ -16,5 +16,32 @@
 			}
 		}
 	}
+	@media (max-width: 1024px){
+		.my_custom{
+			width: 965px;
+		}
+		.videochat-block{
+
+			.chat-user{
+
+				p.comment-box{
+
+					.like-user{
+						text-align: left;
+						display: -webkit-inline-flex;
+						display: -moz-inline-flex;
+						display: -ms-inline-flex;
+						display: -o-inline-flex;
+						display: inline-flex;
+						align-items: center;
+						.username{
+							font-size: 14px;
+							display: inline-block;
+						}
+					}
+				}
+			}
+		}
+	}
 
 }

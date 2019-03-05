@@ -1,2 +1,5 @@
 @media (min-width: 1440px) { .vebinar-page .my_custom { width: 1370px; }
   .vebinar-page .videochat-block .chat-user button.hide-btn { top: 7px; } }
+@media (max-width: 1024px) { .vebinar-page .my_custom { width: 965px; }
+  .vebinar-page .videochat-block .chat-user p.comment-box .like-user { text-align: left; display: -moz-inline-flex; display: -ms-inline-flex; display: -o-inline-flex; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+  .vebinar-page .videochat-block .chat-user p.comment-box .like-user .username { font-size: 14px; display: inline-block; } }

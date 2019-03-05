@@ -7,8 +7,7 @@ html, body { font-family: PTSerifRegular; }
 
 .vebinar-page { padding: 35px 0 15px 0; height: auto; background-color: #3c3c3c; }
 .vebinar-page .my_custom { width: 1280px; padding-left: 10px; padding-right: 10px; }
-.vebinar-page .headlines { margin-bottom: 20px; display: -moz-flex; display: -ms-flex; display: -o-flex; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; width: 100%; }
-.vebinar-page .headlines .right { width: 75%; }
+.vebinar-page .headlines { margin-bottom: 20px; display: -moz-flex; display: -ms-flex; display: -o-flex; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; width: 100%; }
 .vebinar-page .headlines .left { width: 25%; }
 .vebinar-page .headline { display: inline-block; }
 .vebinar-page .headline h1 { font-size: 18px; font-weight: 550; font-family: LatoBlack; display: inline-block; text-transform: uppercase; color: #d0cece; }
