@@ -131,9 +131,9 @@ html,body{
 						border: none;
 						outline: none;
 						position: absolute;
-						left: 0;
-						right: 0;
-						bottom: 0;
+							left: 0;
+							right: 0;
+							bottom: 0;
 						z-index: 44;
 						width: 100%;
 						height: auto;
@@ -143,6 +143,16 @@ html,body{
 						transition: bottom 0.3s ease-in;
 						&.active{
 							display: none;
+						}
+						&:before{
+							content: "";
+							position: relative;
+								right: 2px;
+								top: 4px;
+							display: inline-block;
+							width: 22px;
+							height: 19px;
+							background: url(../images/Chat.png) no-repeat center;
 						}
 					}
 					button.hide-btn{
@@ -233,7 +243,19 @@ html,body{
 
 			.control-button{
 				margin-bottom: 30px;
+				display: -webkit-flex;
+				display: -moz-flex;
+				display: -ms-flex;
+				display: -o-flex;
+				display: flex;
 				button{
+					display: -webkit-flex;
+					display: -moz-flex;
+					display: -ms-flex;
+					display: -o-flex;
+					display: flex;
+					align-items: center;
+					justify-content: center;
 					border: none;
 					border-radius: 50%;
 					padding: 4px;
@@ -252,6 +274,30 @@ html,body{
 						box-shadow: 0 0 6px 0 #dab9b9;
 					}
 				}
+				button.clearAllComment{
+					
+					.icon{
+						display: inline-block;
+						width: 17px;
+						height: 19px;
+					}
+				}
+				button.onOffChat{
+					
+					.icon{
+						display: inline-block;
+						width: 22px;
+						height: 16px;
+					}
+				}
+				button.commentSort{
+					
+					.icon{
+						width: 22px;
+						height: 20px;
+						display: inline-block;
+					}
+				}
 			}
 			.stream-url{
 				
@@ -267,5 +313,4 @@ html,body{
 				}
 			}
 		}
-
 }
